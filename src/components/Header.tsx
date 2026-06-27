@@ -21,7 +21,7 @@ export function Header() {
           aria-label="CampusMarket トップへ"
         >
           <img
-            src="/campusmarket-icon.png"
+            src={`${import.meta.env.BASE_URL}campusmarket-icon.png`}
             alt=""
             className="h-10 w-10 shrink-0 rounded-lg object-cover shadow-sm"
             aria-hidden="true"

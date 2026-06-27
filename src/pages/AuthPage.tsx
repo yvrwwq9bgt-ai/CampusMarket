@@ -54,7 +54,7 @@ export function AuthPage() {
             SHOP / MESSAGE / HANDOFF / VERIFIED / CAMPUS MARKET /
           </div>
           <div className="auth-intro-core">
-            <img src="/campusmarket-icon.png" alt="" />
+            <img src={`${import.meta.env.BASE_URL}campusmarket-icon.png`} alt="" />
             <span>CampusMarket</span>
             <strong>STUDENT ACCESS</strong>
           </div>
